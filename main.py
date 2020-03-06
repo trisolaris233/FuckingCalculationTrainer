@@ -10,12 +10,12 @@ if __name__ == "__main__":
 
 	while True:
 		a = random.randint(100,999)
-		b = random.randint(100,999)
+		b = random.randint(1,999)
 
 		method = random.randint(1,100)
 		key = 0
 
-		if method % 2:
+		if method > 40:
 			print("{}*{}=".format(a,b))
 			key = a*b
 
